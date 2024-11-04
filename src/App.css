@@ -1,38 +1,27 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.post{
+  margin-left: 30%;
+  border: solid 3px green;
+  width: 600px;
+  height: 300px;
+  margin-top: 20px;
+  overflow: scroll;
 }
+.post p{width: 400px;display: inline-block;border: solid 3px black;border-radius:5px;}
+.post h1{background-color: aqua;}
+.post p{background-color: gray;}
+#delet{border: none;background-color: white;color: red;cursor: pointer;margin-left: 20px;}
+.chek{border: none;background-color: green;border-radius: 6px;color: white;padding: 5px;cursor: pointer}
+.chek :hover{border: none;background-color: rgb(1, 82, 1);border-radius: 6px;color: white;padding: 5px;cursor: pointer}
+.unchek{border: none;background-color: rgb(252, 10, 10);border-radius: 6px;color: white;padding: 5px;cursor: pointer}
+.unchek :hover{border: none;background-color: rgb(95, 2, 2);border-radius: 6px;color: white;padding: 5px;cursor: pointer}
+.App a{ 
+  margin-right: 15px;
+  text-decoration: underline;
+  background-color: blueviolet;
+  padding: 10px;color: rgb(243, 237, 237);
+  border-radius: 5px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
